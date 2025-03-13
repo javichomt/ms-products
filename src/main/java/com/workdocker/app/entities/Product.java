@@ -16,6 +16,18 @@ public class Product {
     private String nombre;
     private String descripcion;
     private Double precio;
+    
+    
+	public Product() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Product(String nombre, String descripcion, Double precio) {
+		super();
+		this.nombre = nombre;
+		this.descripcion = descripcion;
+		this.precio = precio;
+	}
 	public Long getId() {
 		return id;
 	}
